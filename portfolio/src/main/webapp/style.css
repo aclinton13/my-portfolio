@@ -24,25 +24,25 @@ body, html {
 }
 
 .pimg1{
-  background-image: url('/portfolio/src/main/webapp/images/background.png');
+  background-image: url('/images/background.png');
   min-height: 100%;
 }
 
 .pimg2{
-  background-image: url('/portfolio/src/main/webapp/images/background2.png');
+  background-image: url('/images/background2.png');
   min-height: 400px;
 }
  .pimg3{
-  background-image: url('/portfolio/src/main/webapp/images/background3.png');
+  background-image: url('/images/background3.png');
   min-height: 400px;
 }
 
 .pimg4{
-   background-image: url('/portfolio/src/main/webapp/images/background4.png');
+   background-image: url('/images/background4.png');
   min-height: 100%; 
 }
 .pimg5{
-   background-image: url('/portfolio/src/main/webapp/images/background5.png');
+   background-image: url('/images/background5.png');
   min-height: 400px; 
 }
 .section{
