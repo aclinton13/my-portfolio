@@ -13,7 +13,6 @@
     <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <jetty.version>9.4.31.v20200723</jetty.version>
-
     <!-- Project-specific properties -->
     <exec.mainClass>com.google.sps.ServerMain</exec.mainClass>
     <googleCloudProjectId>aclinton-sps-spring21</googleCloudProjectId>
