@@ -1,16 +1,15 @@
+
 import java.io.IOException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServletResponse;/** Servlet that responds with a basic header text. */
 
-/** Servlet that returns HTML that contains the page view count. */
-@WebServlet("/index.html")
+@WebServlet("/head")
 public class Server2 extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-
     response.setContentType("text/html;");
     response.getWriter().println("<h1>Hello World</h1>");
   }
