@@ -8,7 +8,7 @@ import org.eclipse.jetty.webapp.Configuration;
 import org.eclipse.jetty.webapp.WebAppContext;
 import org.eclipse.jetty.webapp.WebInfConfiguration;
 
-/**
+/**x
  * Starts up the server, including a DefaultServlet that handles static files, and any servlet
  * classes annotated with the @WebServlet annotation.
  */
