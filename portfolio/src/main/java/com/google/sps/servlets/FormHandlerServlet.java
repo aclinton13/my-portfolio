@@ -17,13 +17,6 @@ public class FormHandlerServlet extends HttpServlet {
     String lastName = request.getParameter("lastName");
     String email = request.getParameter("email");
 
-    // Print the value so you can see it in the server logs.
-    System.out.println("firstname: " + firstName);
-    System.out.println("lastname: " + lastName);
-    System.out.println("email: " + email);
-
-
-
     // Write the value to the response so the user can see it.
     response.setContentType("text/html;");
     response.getWriter().println("<p> First Name: " + firstName +"</p>");
